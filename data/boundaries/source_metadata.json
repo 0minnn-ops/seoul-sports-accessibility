@@ -1,0 +1,99 @@
+{
+  "dataset": "Seoul administrative dong and district boundaries, 2026-10-01 snapshot",
+  "snapshot_date": "2026-10-01",
+  "retrieved_at_utc": "2026-10-29T14:26:08.814915+00:00",
+  "publisher": "vuski/admdongkor",
+  "repository_url": "https://github.com/vuski/admdongkor",
+  "commit": "d5d5a821c8de6cc337d47eeca604d7af76271c9b",
+  "source_url": "https://raw.githubusercontent.com/vuski/admdongkor/d5d5a821c8de6cc337d47eeca604d7af76271c9b/ver20261001/HangJeongDong_ver20261001.geojson",
+  "upstream": "Statistics Korea SGIS administrative boundary data, edited by author to reflect administrative changes",
+  "license": "CC BY 4.0 for processed data; upstream SGIS attribution under KOGL Type 1",
+  "license_url": "https://github.com/vuski/admdongkor/blob/d5d5a821c8de6cc337d47eeca604d7af76271c9b/LICENSE-DATA",
+  "attribution": "본 데이터는 통계청 통계지리정보서비스(SGIS, https://sgis.kostat.go.kr)에서 공공누리 제1유형으로 개방한 행정동 경계를 가공한 것이며(가공: vuski/admdongkor, https://github.com/vuski/admdongkor), CC BY 4.0으로 배포됩니다.",
+  "original_national_feature_count": 3559,
+  "seoul_dong_count": 427,
+  "seoul_district_count": 25,
+  "filter": "feature.properties.sido == '11'",
+  "output_coordinate_system": "EPSG:4326 (longitude/latitude)",
+  "area_coordinate_system": "EPSG:5179 (metres)",
+  "original_fields": [
+    "adm_nm",
+    "adm_cd2",
+    "sgg",
+    "sido",
+    "sidonm",
+    "sggnm",
+    "adm_cd"
+  ],
+  "derived_dong_fields": {
+    "area_m2": "Geometry area in EPSG:5179 square metres",
+    "area_km2": "area_m2 / 1,000,000"
+  },
+  "derived_district_fields": {
+    "dong_count": "Number of source administrative dong per district",
+    "area_m2": "Dissolved geometry area in EPSG:5179",
+    "area_km2": "area_m2 / 1,000,000"
+  },
+  "fields": {
+    "adm_nm": "Full administrative dong name",
+    "adm_cd": "8-digit statistical administrative dong code",
+    "adm_cd2": "10-digit Ministry administrative code",
+    "sgg": "5-digit district code",
+    "sido": "2-digit city/province code",
+    "sidonm": "City/province name",
+    "sggnm": "District name"
+  },
+  "processing": "Subset the independently downloaded nationwide source to Seoul; preserve all source dong properties and geometries; derive areas; dissolve by district code/name; no course or prior assignment files used.",
+  "qa": {
+    "invalid_dong_geometries": 0,
+    "empty_dong_geometries": 0,
+    "duplicate_adm_cd": 0,
+    "duplicate_adm_cd2": 0,
+    "invalid_district_geometries": 0,
+    "sum_dong_area_km2": 606.2244321007712,
+    "union_area_km2": 606.2237250069738,
+    "overlap_area_m2": 707.093797326088,
+    "total_bounds_lon_lat": [
+      126.76469057122192,
+      37.42901070369192,
+      127.18355190345548,
+      37.70107989967062
+    ],
+    "overlap_pairs_above_0_01_m2": [
+      {
+        "dong_1": "서울특별시 용산구 남영동",
+        "dong_2": "서울특별시 용산구 한강로동",
+        "overlap_m2": 707.0937982246969
+      }
+    ]
+  },
+  "limitations": [
+    "Community-maintained derivative; not the definitive legally authoritative boundary. Author notes some boundaries may differ from actual boundaries.",
+    "Snapshot label is 2026-10-01; upstream SGIS base vintage and different constituent geometry edit dates are not a single synchronized 2026 survey.",
+    "427 Seoul dong reflects the 2025-07-01 split of Yongshin-dong into Yongdu-dong and Sinseol-dong. Older 426-dong tables require matching or aggregation.",
+    "Polygon areas are computed from this source in EPSG:5179, not official statistical land areas.",
+    "Source polygons have minor geometric overlaps totalling approximately 707.09 square metres (0.000117% of Seoul union area). Original geometries are preserved; any point-to-dong join should select one district/dong deterministically for multiply matched points rather than double count them."
+  ],
+  "files": {
+    "HangJeongDong_ver20261001.geojson": {
+      "sha256": "843ece3a0b3429742cd4a1b699cc13987a88b5e5401f382e7fdaaa194ea5e605",
+      "bytes": 34652038
+    },
+    "seoul_admdong_20261001.geojson": {
+      "sha256": "35814b8eab01823d055a9e5bbd2768171e577c3016874277d575b19a006fbe94",
+      "bytes": 992064
+    },
+    "seoul_districts_20261001.geojson": {
+      "sha256": "716bc19366af410ae915da522deb73dd3b7d6f03889f13ad396d70d1b06ac425",
+      "bytes": 247533
+    },
+    "LICENSE-DATA.txt": {
+      "sha256": "d892791d5ba176e3bb7cc178937b26d3b33e2ad19da581af168c9e48428ba507",
+      "bytes": 2757
+    },
+    "SOURCE-README.md": {
+      "sha256": "bc03b92d859e286ac6d44758f5c426a566a98e1ba473443d909ca8576582a0ef",
+      "bytes": 43049
+    }
+  }
+}

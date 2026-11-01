@@ -1,0 +1,26 @@
+﻿case_code,case_name,facility_id,facility_name,facility_dong,facility_district,contribution,outside,url
+11220580,반포2동,1462,반포종합운동장 배드민턴장,반포2동,서초구,0.42335472921903744,False,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1462
+11220580,반포2동,990,반포종합운동장 축구장,반포2동,서초구,0.42335472921903744,False,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=990
+11220580,반포2동,1466,반포종합운동장 농구장,반포2동,서초구,0.42335472921903744,False,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1466
+11220580,반포2동,991,반포종합운동장 테니스장,반포2동,서초구,0.42335472921903744,False,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=991
+11220580,반포2동,1464,반포종합운동장 풋살경기장,반포2동,서초구,0.42335472921903744,False,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1464
+11170620,고척2동,833,고척근린공원 운동장,고척2동,구로구,0.5575603264176716,False,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=833
+11170620,고척2동,834,고척근린공원 테니스장,고척2동,구로구,0.5575603264176716,False,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=834
+11170620,고척2동,841,구로구민체육센터 수영장,고척2동,구로구,0.557236251884684,False,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=841
+11170620,고척2동,1489,고척근린공원 농구장,고척2동,구로구,0.5557820876445746,False,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1489
+11170620,고척2동,1488,고척근린공원 배드민턴장,고척2동,구로구,0.5557820876445746,False,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1488
+11220610,방배본동,1443,서초구민체육센터 농구장,반포2동,서초구,0.6186479003618762,True,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1443
+11220610,방배본동,1442,서초구민체육센터 수영장,반포2동,서초구,0.6186479003618762,True,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1442
+11220610,방배본동,1466,반포종합운동장 농구장,반포2동,서초구,0.32882629336806873,True,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1466
+11220610,방배본동,1462,반포종합운동장 배드민턴장,반포2동,서초구,0.32882629336806873,True,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1462
+11220610,방배본동,991,반포종합운동장 테니스장,반포2동,서초구,0.32882629336806873,True,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=991
+11120570,구산동,1628,은평청여울수영장,대조동,은평구,0.07293804115329486,True,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1628
+11120570,구산동,1135,백련근린공원 실내배드민턴장,응암1동,은평구,0.013158870139942769,True,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1135
+11140690,망원1동,910,망원동 배드민턴장,망원1동,마포구,0.5610397879614616,False,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=910
+11140690,망원1동,1540,용왕산근린공원 테니스장,목2동,양천구,0.019499894446247338,True,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1540
+11140690,망원1동,918,와우산배드민턴장,서강동,마포구,0.017639346850600972,True,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=918
+11120710,진관동,1416,은평통일로스포츠센터 수영장,진관동,은평구,0.11238332451135767,False,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1416
+11120710,진관동,1142,은평구민체육센터 테니스장,진관동,은평구,0.108048188464436,False,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1142
+11120710,진관동,1141,은평구민체육센터 수영장,진관동,은평구,0.108048188464436,False,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1141
+11120710,진관동,894,진관동 풋살경기장,갈현1동,은평구,0.0849496786385112,True,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=894
+11120710,진관동,1628,은평청여울수영장,대조동,은평구,0.0055598669285221785,True,https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1628

@@ -1,0 +1,32 @@
+{
+  "downloaded_kst": "2026-10-31T19:38:46.120684+09:00",
+  "catalog": "https://data.seoul.go.kr/dataList/OA-21779/S/1/datasetView.do",
+  "download_url": "https://datafile.seoul.go.kr/bigfile/iot/sheet/json/download.do",
+  "download_method": "POST",
+  "form": {
+    "srvType": "S",
+    "infId": "OA-21779",
+    "serviceKind": "1",
+    "pageNo": "1",
+    "ssUserId": "SAMPLE_VIEW",
+    "strWhere": "",
+    "strOrderby": "",
+    "filterCol": "",
+    "txtFilter": ""
+  },
+  "raw_sha256": "412435e737be5b29833ce3ee860ca110782bcaaae16e66fabd2c68820472f3fb",
+  "raw_records": 897,
+  "public_records": 814,
+  "selected_kinds": [
+    "수영장",
+    "배드민턴장",
+    "테니스장",
+    "축구장",
+    "풋살장",
+    "농구장"
+  ],
+  "selected_records": 399,
+  "coordinate_records": 387,
+  "license": "공공누리 제1유형: 서울특별시 출처표시, 가공 가능",
+  "note": "포털 갱신일은 개별 시설 현장검증일이 아니다. 좌표는 같은 시설 ID의 공식 상세페이지 지도 변수에서 추출."
+}

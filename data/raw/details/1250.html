@@ -1,0 +1,1869 @@
+
+
+          
+
+
+
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+	content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+
+
+<meta name="_csrf" content="31f45304-62ee-46ce-9ec1-e53b29d4ca5b"/>
+<meta name="_csrf_header" content="X-CSRF-TOKEN"/>
+
+<title>홈 > 우리동네 생활체육 > 우리동네 체육시설</title>
+<!-- <link rel="stylesheet" type="text/css" href="/resources/main/css/swiper.css"> -->
+<!-- 	<link rel="stylesheet" type="text/css" href="/resources/main/css/layout.css"> -->
+<!-- 	<link rel="stylesheet" type="text/css" href="/resources/main/css/sub.css"> -->
+<!-- 	<link rel="stylesheet" type="text/css" href="/resources/main/css/respon.css"> -->
+
+	
+<!-- 	<script src="/resources/main/js/jquery-1.11.3.min.js"></script> -->
+<!-- 	<script src="/resources/main/js/jquery.easing.1.3.js"></script> -->
+<!-- 	<script src="/resources/main/js/swiper.min.js"></script> -->
+<!-- 	<script src="/resources/main/js/js.js"></script> -->
+	
+	<link rel="stylesheet" type="text/css" href="/resources/main/css/layout.css">
+	<link rel="stylesheet" type="text/css" href="/resources/main/css/sub.css">
+	<link rel="stylesheet" type="text/css" href="/resources/main/css/respon.css">
+
+	<script src="/resources/main/js/jquery-1.11.3.min.js"></script>
+	<script src="/resources/main/js/jquery.easing.1.3.js"></script>
+	<script src="/resources/main/js/BxSlider.js"></script>
+	<script src="/resources/main/js/js.js"></script>
+	
+	<script src="/_admst/js/util.js"></script>
+	<script src="/_admst/js/validation.js"></script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-VFJGTWGLYM"></script>
+	
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+		
+		gtag('config', 'G-VFJGTWGLYM');
+
+		//20260701 post form에 csrf token 히든 input 설정
+		$(document).ready(function () {
+			var token = $("meta[name='_csrf']").attr("content");
+			var paramName = "_csrf";
+
+			if (token) {
+				$("form[method='post'], form[method='POST']").each(function() {
+					if ($(this).find("input[name='" + paramName + "']").length === 0) {
+						$(this).append('<input type="hidden" name="' + paramName + '" value="' + token + '" />');
+					}
+				});
+			}
+		});
+	</script>
+	
+	
+<script src="//www.seoul.go.kr/seoulgnb/gnb.js"></script>
+<script>
+	//GNB 로딩 스크립트 
+	// Yjs.Gnb.init('사이트코드', 'GNB 표출영역 ID'); 
+	window.onload = function() {
+		Yjs.Gnb.init('G225', 'seoul-common-gnb');
+		
+	}
+</script>
+<meta property="og:type" content="website">
+
+	
+	
+		<meta property="og:title" content="핫둘핫둘서울" />
+	
+
+
+	
+		<meta property="og:url" content='https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1250' />
+		
+	
+	
+
+
+	
+	
+		<meta property="og:image" content="https://125.141.56.50/resources/main/images/layout/og_logo.jpg" />
+	
+
+
+	
+	
+		<meta property="og:description"
+			content="핫둘핫둘서울, 우리동네 생활체육, 시민참여 프로그램 " />
+	
+
+
+</head>
+<body>
+<!-- 2020-12-08 추가 -->
+<ul id="skipNavi">
+     <li><a href="#content">본문 바로가기</a></li>
+     <li><a href="#topMenu">주메뉴 바로가기</a></li>
+</ul>
+<!-- //2020-12-08 추가 -->
+	<!-- <div id="wrap"> -->
+		
+
+
+
+<div id="#header" class="header">
+ <div id='seoul-common-gnb'></div>
+					
+				<div class="hd-wp">
+						<div class="wid">
+							<div class="hd-con cfx">
+								<h1 class="logo"><a href="/"><img src="/resources/main/images/layout/logo.png" alt="핫둘핫둘서울 생활체육포털" class="cw">
+								<img src="/resources/main/images/layout/logo_black3.png" alt="핫둘핫둘서울 생활체육포털" class="cb">
+						</a></h1>
+									
+								<div class="menu-box">
+								<a href="javascript: " class="hidden p00" tabindex="-1">주메뉴 시작</a>
+									<ul class="depth1 cfx">
+												
+												
+													
+													
+														
+															
+																
+																	
+																		
+																	
+																
+																
+															
+														
+													
+														
+															
+																
+																	
+																
+																
+															
+														
+													
+														
+															
+																
+																	
+																
+																
+															
+														
+													
+														
+													
+													<li><a href="/main/content/view/MN01020000.do">핫둘핫둘서울</a>
+														<ul class="depth2">
+															
+															
+																
+																	
+																		<li><a href="/main/content/view/MN01020000.do"  >생활체육포털 소개</a></li>
+																	
+																	
+																
+															
+															
+															
+																
+																	
+																		<li><a href="/main/board/1/board_list.do"  >공지사항</a></li>
+																	
+																	
+																
+															
+															
+															
+																
+																	
+																		<li><a href="/main/board/6/board_list.do"  >보도자료</a></li>
+																	
+																	
+																
+															
+															
+															
+															
+														</ul>
+														
+													</li>
+												
+												
+												
+													
+													
+														
+															
+																
+																	
+																		
+																	
+																
+																
+															
+														
+													
+														
+															
+																
+																	
+																
+																
+															
+														
+													
+														
+															
+																
+																	
+																
+																
+															
+														
+													
+														
+													
+														
+													
+													<li><a href="/main/facilities/facilities.do">우리동네 생활체육</a>
+														<ul class="depth2">
+															
+															
+																
+																	
+																		<li><a href="/main/facilities/facilities.do"  >우리동네 체육시설</a></li>
+																	
+																	
+																
+															
+															
+															
+																
+																	
+																		<li><a href="/main/board/8/board_list.do"  >우리동네 프로그램</a></li>
+																	
+																	
+																
+															
+															
+															
+																
+																	
+																		<li><a href="/main/board/11/board_list.do"  >우리동네 운동장소</a></li>
+																	
+																	
+																
+															
+															
+															
+															
+															
+															
+														</ul>
+														
+													</li>
+												
+												
+												
+													
+													
+														
+															
+																
+																	
+																		
+																	
+																
+																
+															
+														
+													
+														
+															
+																
+																	
+																
+																
+															
+														
+													
+														
+															
+																
+																	
+																
+																
+															
+														
+													
+														
+															
+																
+																	
+																
+																
+															
+														
+													
+														
+													
+														
+															
+																
+																	
+																
+																
+															
+														
+													
+														
+															
+																
+																	
+																
+																
+															
+														
+													
+													<li><a href="/main/board/15/board_list.do">핫둘핫둘 정보광장</a>
+														<ul class="depth2">
+															
+															
+																
+																	
+																		<li><a href="/main/board/15/board_list.do"  >핫둘핫둘 새소식</a></li>
+																	
+																	
+																
+															
+															
+															
+																
+																	
+																		<li><a href="/main/board/9/board_list.do"  >핫둘핫둘 알쓸신잡</a></li>
+																	
+																	
+																
+															
+															
+															
+																
+																	
+																		<li><a href="/main/board/10/board_list.do"  >서울시민 스포츠 기자단</a></li>
+																	
+																	
+																
+															
+															
+															
+																
+																	
+																		<li><a href="/main/board/12/board_list.do"  >집에서도 핫둘핫둘</a></li>
+																	
+																	
+																
+															
+															
+															
+															
+															
+																
+																	
+																		<li><a href="/main/board/25/board_list.do"  >서울스포츠</a></li>
+																	
+																	
+																
+															
+															
+															
+																
+																	
+																		<li><a href="/main/board/50/board_list.do"  >추천영상</a></li>
+																	
+																	
+																
+															
+															
+														</ul>
+														
+													</li>
+												
+												
+												
+													
+													
+														
+															
+																
+																
+																	
+																		
+																	
+																		
+																	
+																		
+																	
+																		
+																			
+																				
+																			
+																		
+																	
+																		
+																	
+																		
+																	
+																		
+																	
+																
+															
+														
+													
+														
+															
+																
+																
+																	
+																		
+																			
+																		
+																	
+																		
+																	
+																		
+																	
+																		
+																			
+																		
+																	
+																		
+																			
+																		
+																	
+																		
+																	
+																		
+																	
+																		
+																			
+																		
+																	
+																
+															
+														
+													
+														
+															
+																
+																
+																	
+																		
+																			
+																		
+																	
+																		
+																	
+																		
+																	
+																		
+																			
+																		
+																	
+																		
+																			
+																		
+																	
+																		
+																	
+																		
+																	
+																		
+																	
+																		
+																	
+																		
+																	
+																		
+																	
+																		
+																			
+																		
+																	
+																		
+																			
+																		
+																	
+																		
+																			
+																		
+																	
+																
+															
+														
+													
+														
+															
+																
+																
+																	
+																		
+																	
+																		
+																			
+																		
+																	
+																		
+																			
+																		
+																	
+																		
+																			
+																		
+																	
+																		
+																	
+																		
+																	
+																		
+																			
+																		
+																	
+																		
+																			
+																		
+																	
+																		
+																			
+																		
+																	
+																		
+																	
+																		
+																			
+																		
+																	
+																		
+																			
+																		
+																	
+																		
+																			
+																		
+																	
+																		
+																			
+																		
+																	
+																
+															
+														
+													
+														
+													
+													<li><a href="/main/SP01040000_user/program_view.do">시민참여 프로그램</a>
+														<ul class="depth2">
+															
+															
+																
+																	
+																	
+																		<li><a href="/main/SP01040000_user/program_view.do">교실형</a>
+																			
+																		</li>
+																	
+																
+															
+															
+															
+																
+																	
+																	
+																		<li><a href="/main/SP02010000_user/program_view.do">클럽형</a>
+																			
+																		</li>
+																	
+																
+															
+															
+															
+																
+																	
+																	
+																		<li><a href="/main/SP03010000_user/program_view.do">대회형</a>
+																			
+																		</li>
+																	
+																
+															
+															
+															
+																
+																	
+																	
+																		<li><a href="/main/SP04140000_user/program_view.do">체험형</a>
+																			
+																		</li>
+																	
+																
+															
+															
+															
+															
+														</ul>
+														
+													</li>
+												
+												
+												
+													
+													
+														
+															
+																
+																	
+																		
+																	
+																
+																
+															
+														
+													
+														
+													
+														
+													
+														
+													
+														
+															
+																
+																	
+																
+																
+															
+														
+													
+														
+															
+																
+																	
+																
+																
+															
+														
+													
+													<li><a href="/main/schedule/user_schedule_list.do">핫둘핫둘 소통광장</a>
+														<ul class="depth2">
+															
+															
+																
+																	
+																		<li><a href="/main/schedule/user_schedule_list.do"  >생활체육 다이어리</a></li>
+																	
+																	
+																
+															
+															
+															
+															
+															
+															
+															
+															
+															
+																
+																	
+																		<li><a href="/main/board/17/board_list.do"  >포토갤러리</a></li>
+																	
+																	
+																
+															
+															
+															
+																
+																	
+																		<li><a href="/main/board/19/board_list.do"  >Q&A</a></li>
+																	
+																	
+																
+															
+															
+														</ul>
+														
+													</li>
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+									</ul>
+								</div>
+								
+								
+								
+								
+								
+								<ul class="pro-box">
+									<li><a href="javascript:goLogin();" class="lgn"><span>로그인</span></a></li>
+								<!-- 	<li><a href="#n"class="joi"><span>회원가입</span></a></li> -->
+								</ul>
+								
+								
+								<a href="javascript: " id="ms-btz" class="hidden p00" tabindex="-1">전체메뉴 버튼, 검색 버튼  시작</a>
+									<!-- DEV : 2020-09-24 수정 -->
+									<ul class="hd-btl">
+										<li class="srb-bbx"><a href="#n" class="sr"><span>검색</span></a></li>
+										<li class="amnb-bx"><a href="#topMenu" class="mn"><span>전체메뉴</span></a></li> <!-- 2020-12-08 수정 -->
+									</ul>
+									<!-- //DEV : 2020-09-24 수정 -->
+							</div>
+					</div>
+			<div class="tp_search_wp">
+				<div class="lo-ib">
+					<p><img src="/resources/main/images/layout/tp_search_lic.png" alt="핫둘핫둘 서울 생활체육포털"></p>
+					<form id="searchForm" action="/main/search/search_list.do">
+					<div class="sr-ibtt">
+						<input type="text" title="검색어 입력" placeholder="검색어를 입력하세요" name="searchKeyword" id="searchKeyword">
+						<a href="#n" class="srbt" onclick="submit();"><img src="/resources/main/images/layout/tp_search_btn.gif" alt="검색"></a>
+					</div>
+					</form>
+				</div>
+				<a href="#n" class="tps-clo"><img src="/resources/main/images/layout/tp_search_clo.gif" alt="닫기"></a>
+				<!-- <div class="p-kw">
+					<dl>
+						<dt>인기검색어</dt>
+						<dd>
+							<a href="#n"># 동호회</a>
+							<a href="#n"># 무료</a>
+							<a href="#n"># 조기축구</a>
+							<a href="#n"># 실내테니스</a>
+						</dd>
+					</dl>
+				</div> -->
+			</div>
+					</div>
+					<!-- 20211224 add 네비게이션 바 -->
+					
+				</div>
+				 
+				<form name="userForm" method="post" action="https://www.seoul.go.kr/member/userlogin/loginCheck.do" onSubmit="return(true)">
+					<input type="hidden" name="div" value="mem">
+					<input type="hidden" name="SITE_GB" value="GB125"> <!-- 해당 사이트 코드 -->
+					<input type="hidden" name="refresh_url" value="https://sports.seoul.go.kr/"> <!-- 로그인 성공 시 되돌아갈 url -->
+					
+					<input type="hidden" name="_csrf" value="31f45304-62ee-46ce-9ec1-e53b29d4ca5b" />
+				</form>
+				<script>
+				function submit() {
+					if($("#searchKeyword").val() == ""){
+						alert("검색어를 입력해주세요.");
+						$("#searchKeyword").focus();
+						return false;
+					}
+				$("#searchForm").submit();
+				}
+				
+				function preLogin(url){
+					var obj = document.userForm;
+				 	obj.refresh_url.value = "https://sports.seoul.go.kr"+ url;
+				 	goLogin2();
+				}
+				
+				function goLogin(){
+					var obj = document.userForm;
+					obj.submit();
+				}
+				
+				function goLogin2(){
+					alert("로그인 후 사용 가능합니다.")
+					var obj = document.userForm;
+					obj.submit();
+				}
+				
+				 function goLogout(){
+			   		/* 변경될 로그아웃(통합회원시스템) */
+			   		//go_url("https://www.seoul.go.kr/member/userlogin/logOut.do?SITE_GB=GB098&refresh_url=https://hanok.seoul.go.kr/front/index.do");
+			   		
+			   		location.href = "https://www.seoul.go.kr/member/userlogin/logOut.do?SITE_GB=GB125&refresh_url=https://sports.seoul.go.kr/"
+				 }
+				</script>
+				
+				<script>
+				/* const headerList = document.querySelector(".depth1");
+				const headerChildList = document.querySelectorAll(".depth2");
+
+				// 마우스를 올렸을 때
+				headerList.addEventListener("mouseenter", () => {
+				  headerChildList.forEach(child => {
+				    child.style.display = "block";
+				  });
+				});
+
+				// 마우스를 뗐을 때
+				headerList.addEventListener("mouseleave", () => {
+				  headerChildList.forEach(child => {
+				    child.style.display = "none";
+				  });
+				}); */
+				
+				</script>
+				
+				<!-- 메뉴에 링크 작업 -->
+
+		<div class="container-new">
+			<div class="wid cfx">
+			
+				<div class="left-area">
+					<div class="left-title bg4">
+						
+						 	
+						 		<h2>우리동네 생활체육</h2>
+						 	
+						 
+						 	
+						 
+						 	
+						 
+						 	
+						 
+						 	
+						 
+					</div>
+					
+						<ul class="left-dp1">
+							
+								<li class='dw' ><a href="/main/facilities/facilities.do" style="background-image: none;" >우리동네 체육시설</a></li>
+							
+						</ul>
+					
+						<ul class="left-dp1">
+							
+								<li class='dw' ><a href="/main/board/8/board_list.do" style="background-image: none;" >우리동네 프로그램</a></li>
+							
+						</ul>
+					
+						<ul class="left-dp1">
+							
+								<li class='dw' ><a href="/main/board/11/board_list.do" style="background-image: none;" >우리동네 운동장소</a></li>
+							
+						</ul>
+					
+						<ul class="left-dp1">
+							
+						</ul>
+					
+						<ul class="left-dp1">
+							
+						</ul>
+					
+					</div>
+					
+					
+					
+					
+<script>
+	// 현재 페이지의 부모 메뉴에 'on' 클래스 추가
+	$(document).ready(function() {
+		// 현재 URL 경로와 현재 메뉴 정보
+		var currentPath = window.location.pathname;
+		
+		// 1. 현재 메뉴의 depth가 3인 경우 (하위 메뉴 페이지)
+		
+		
+		// 2. 현재 메뉴의 depth가 2인 경우 (2차 메뉴 페이지)
+		
+			// 2차 메뉴 링크 확인
+			$(".left-dp1 > li.dw > a").each(function() {
+				var linkHref = $(this).attr("href");
+				
+				if (linkHref && linkHref.indexOf("#") !== 0 && (currentPath.indexOf(linkHref) !== -1 || linkHref.indexOf(currentPath) !== -1)) {
+					$(this).parent("li.dw").addClass("on");
+				}
+			});
+		
+		
+		// 3. 현재 메뉴 정보를 localStorage에 저장 (다른 페이지에서 활용)
+		var currentMenuInfo = {
+			mtIdx: "MN02010000",
+			mtDepth: "2",
+			path: currentPath,
+			timestamp: new Date().getTime()
+		};
+		
+		
+		
+		// localStorage에 현재 메뉴 정보 저장
+		localStorage.setItem("currentMenuInfo", JSON.stringify(currentMenuInfo));
+		
+		// console.log for debugging (운영시 주석 처리)
+		// console.log("현재 메뉴 정보:", currentMenuInfo);
+	});
+</script>
+					
+					
+
+	      
+
+
+
+ 
+	<style>
+    .facilities_tab{
+        margin: 0 auto;
+    }
+    .facilities_tab ul.tabs{
+        padding: 0px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+    .facilities_tab ul.tabs li{
+        background: none;
+        border: 1px solid #999;
+        color: #424545;
+        display: inline-block;
+        width: 100%;
+        line-height: 50px;
+        border-radius: 3px;
+        text-align: center;
+        cursor: pointer;
+        font-size: 18px;
+        padding: 1px;
+        margin: 5px;
+    }
+    .facilities_tab ul.tabs li.current{
+        background: #419488;
+        color: #fff;
+        border: 1px solid #419488;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    }
+    .fac-tab-content{
+    display: none;
+    }
+    .fac-tab-content.current{
+        display: inherit;
+    }
+  </style>
+   <script>
+    $(document).ready(function(){
+      $('.facilities_tab ul.tabs li').click(function(){
+        var tab_id = $(this).attr('data-tab');
+ 
+        $('.facilities_tab ul.tabs li').removeClass('current');
+        $('.fac-tab-content').removeClass('current');
+ 
+        $(this).addClass('current');
+        $("#"+tab_id).addClass('current');
+      })
+    });
+  </script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=19deede22cdaf1f2f719d9dd88241153&libraries=services"></script>
+<script>
+$(document).ready(function() {
+
+	var lat = "37.5188522510214";
+	var lng = "126.894114718336";
+	var markerImageSrc = "/resources/main/images/sub/map_api_lic.png";
+	var size = new daum.maps.Size(33,45);
+	var origin = new daum.maps.Point(0,0);
+	origin = new kakao.maps.Point(0,27);
+	var imageSize = new kakao.maps.Size(33, 45);
+	var imageOptions = {offset: new kakao.maps.Point(17, 49)};
+    var markerImage = new kakao.maps.MarkerImage(markerImageSrc, imageSize, imageOptions);
+	var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+	mapOption = { 
+	    center: new kakao.maps.LatLng(lat, lng), // 지도의 중심좌표
+	    level: 3 // 지도의 확대 레벨
+	};
+	var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+	
+	//마커가 표시될 위치입니다 
+	var markerPosition  = new kakao.maps.LatLng(lat, lng); 
+	
+	//마커를 생성합니다
+	var marker = new kakao.maps.Marker({
+		zIndex: 1,
+		position: markerPosition,
+		image: markerImage
+	});
+	
+	//마커가 지도 위에 표시되도록 설정합니다
+	marker.setMap(map);
+});
+
+function toList() {
+    document.getElementById("frm").submit();
+  }
+</script>
+
+
+
+
+
+<div class="content-area">
+	<form id="frm" action="facilities.do">
+	<input type="hidden" name="param" value="">
+	</form>
+	
+		<div class="con-tp2">
+			<h3 class="npg-tit">우리동네 체육시설</h3>
+			<ul class="nav-btl">
+				<!-- <li><a href="#n"><img src="/resources/main/images/layout/nav_sns1.jpg" alt="트위터"></a></li> -->
+				<!-- 2020-12-08 title값 추가 -->
+				<li><a href="#n" id="fbLink"><img src="/resources/main/images/layout/nav_sns2.jpg" alt="페이스북 새창열림"></a></li>
+				<li><a href="#n" id="twLink"><img src="/resources/main/images/layout/nav_sns4.png" alt="트위터 새창열림"></a></li>
+				<!-- <li><a href="#n" id="kaLink"><img src="/resources/main/images/layout/nav_sns5.png" alt="카카오스토리 새창열림"></a></li> -->
+				<li><a href="#n" id="create-kakaotalk-sharing-btn"><img src="/resources/main/images/layout/nav_sns3.jpg" alt="카카오톡 새창열림"></a></li>
+				<li ><a href="/common/printPopup.do" class="prt"><img src="/resources/main/images/layout/nav_print.jpg" alt="출력 새창열림"></a></li>
+				<!-- //2020-12-08 title값 추가 -->
+				<li class="zoom">
+					<span>글자크기</span>
+					<a href="#n" onclick="zoomIn2();"><img src="/resources/main/images/layout/zoom_icP.gif" alt="글자 확대"></a>
+					<a href="#n" onclick="zoomOut2();"><img src="/resources/main/images/layout/zoom_icM.gif" alt="글자 축소"></a>
+				</li>
+			</ul>
+		</div>
+		
+		<h4 style="font-weight: 100; color: darkgrey; padding-bottom: 14px;">* 체육시설 정보는 참고용이며, 자세한 사항은은 해당 시설에 문의 부탁드립니다.</h4>
+				
+			<div class="contents" id="content">
+					
+					<div class="lsc-vwp">
+						<div class="cnt-nm">문래청소년센터 수영장</div>
+						<div class="lsc-vw-ncbx">
+						<!-- <div class="map-api" style="height: 300px; background: url(/resources/main/images/sub/map_apii2.jpg) center 0 no-repeat;"> -->
+						<div class="map-api" style="height: 300px;">
+							<div id="map" style="width:100%;height:100%;"></div>
+						</div>
+						
+						<div class="lsc-vwt">
+								<span class="itc-ubti">운영종목</span>
+								<div>
+								
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+										
+										수영
+										 
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+									
+									
+								
+								</div>
+								
+				<!--20211228 add -->
+                <!--tab menu-->
+                <div class="facilities_tab">
+                    <ul class="tabs">
+                        <li class="tab-link current" data-tab="tab-1"><a href="#n">시설안내</a></li>
+                        <li class="tab-link" data-tab="tab-2"><a href="#n">운영안내</a></li>
+                        <li class="tab-link" data-tab="tab-3"><a href="#n">시설사진</a></li>
+                    </ul>
+                </div><!--//tab menu-->
+              <!--tab 시설안내-->
+              <div id="tab-1" class="fac-tab-content current">
+			  <!--20211228 add end-->	
+								
+								
+								
+							<table class="row-tbst1">
+								<caption>문래청소년센터 수영장 시설안내</caption>
+								<colgroup>
+									<col class="col-wdc1">
+									<col>
+								</colgroup>
+								<tbody>
+									<tr>
+										<th scope="row">위치</th>
+										<td>
+											<span class="inlb mr">
+											
+											
+											서울특별시 영등포구 문래로 110<br/>
+											
+											
+											
+											
+											</span> 
+											
+										</td>
+									</tr>
+									<tr>
+										<th scope="row">시설유형</th>
+										<td>공공체육시설</td>
+									</tr>
+									<tr>
+										<th scope="row">시설규모</th>
+										<td>성인풀(25m) 5레인, 유아풀</td>
+										
+									</tr>
+									<tr>
+										<th scope="row">사용료</th>
+										
+										
+										
+											<td>운영 프로그램에 따라 이용 요금 상이</td>
+										
+										
+									</tr>
+									<tr>
+										<th scope="row">시설 관리/운영기관</th>
+										<td>명지전문대학</td>
+									</tr>
+									<tr>
+										<th scope="row">편의시설</th>
+										<td>샤워실, 탈의실, 북카페, 텃밭</td>
+									</tr>
+									<tr>
+										<th scope="row">시설운영상태</th>
+										<td>운영</td>
+									</tr>
+									<tr>
+										<th scope="row">특징</th>
+										<td></td>
+									</tr>
+								</tbody>
+							</table>
+			<!--20211228 add -->
+              </div>
+              <!--//tab 시설안내-->
+              <!--tab 운영안내-->
+              <div id="tab-2" class="fac-tab-content">
+							<table class="row-tbst1">
+								<caption>문래청소년센터 수영장 운영안내</caption>
+								<colgroup>
+									<col class="col-wdc1">
+									<col>
+								</colgroup>
+								<tbody>
+			<!--20211228 add end-->	
+									<tr>
+										<th scope="row">연락처</th>
+										<td>02-2167-0100</td>
+										
+									</tr>
+									<tr>
+										<th scope="row">주차정보</th>
+										<td>최초 20분 무료
+10분 초과 당 500원</td>
+									</tr>
+									<tr>
+										<th scope="row">운영시간</th>
+										<td>주중 : 06:00~21:50  / 주말 : 06:00~21:50</td>
+									</tr>
+									<tr>
+										<th scope="row">홈페이지</th>
+										<td>
+											<a href="http://www.mullaeyouth.or.kr/src/facility.php?pg=01" target="_blank" title="새창열림" class="lk-bil" >http://www.mullaeyouth.or.kr/src/facility.php?pg=01</a>
+											
+										</td>
+			<!--20211228 add -->
+                  </tr>
+                </tbody>
+              </table>
+              </div>
+              <!--//tab 운영안내-->
+              <!--tab 시설사진-->
+              <div id="tab-3" class="fac-tab-content">
+              <table class="row-tbst1">
+								<caption>문래청소년센터 수영장 시설사진</caption>
+								<colgroup>
+									<col class="col-wdc1">
+									<col>
+								</colgroup>
+								<tbody>
+			<!--20211228 add end-->	
+
+
+									<tr>
+										<th scope="row">시설사진</th>
+										<td >
+											<div style="text-align: center;">
+											
+											
+												
+													<p class="mt20"><img src="/file/view/FID00000634/0.do" alt="문래청소년수련관 수영장 2.jpg" onerror="/resources/main/images/sub/defalut_image.jpg"></p>
+												
+													<p class="mt20"><img src="/file/view/FID00000634/1.do" alt="문래청소년수련관 수영장 1.jpg" onerror="/resources/main/images/sub/defalut_image.jpg"></p>
+												
+													<p class="mt20"><img src="/file/view/FID00000634/2.do" alt="문래청소년수련관 수영장 4.jpg" onerror="/resources/main/images/sub/defalut_image.jpg"></p>
+												
+													<p class="mt20"><img src="/file/view/FID00000634/3.do" alt="문래청소년수련관 수영장 3.jpg" onerror="/resources/main/images/sub/defalut_image.jpg"></p>
+												
+											
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							
+			<!--20211228 add -->				
+              </div><!--//tab 시설안내-->
+			<!--20211228 add end-->	
+						</div>
+					</div>
+						<div style="text-align: center;">
+						<a href="facilities.do?" onclick="toList()" class="btn-md">목록으로</a>
+						</div>
+		</div>
+	</div>
+	</div>
+	</div>
+		  
+
+
+
+
+<!--// mainPop -->
+<script>
+var uu = $('meta[property="og:url"]').attr('content');
+
+	//팝업 오늘하루보기 
+	$('.btnPopClose').click(function(){
+		if ($('#chkToday').prop("checked")) {
+			setCookie('popToggle','click',1);
+		}
+	});
+	
+ 	if(getCookie('popToggle') == ''){
+		$('.mainPop').show();
+	}else{
+		$('.mainPop').hide();
+	}
+ 	if(getCookie('popToggle2') == ''){
+		$('.topBanner').show();
+	}else{
+		$('.topBanner').hide();
+	}
+	function setCookie(cName, cValue, cDay){
+		var expire = new Date();
+		expire.setDate(expire.getDate() + cDay);
+		cookies = cName + '=' + escape(cValue) + '; path=/ '; // 한글 깨짐 방지 escape(cValue)
+		if(typeof cDay != 'undefined') cookies += ';expires=' + expire.toGMTString() + ';';
+		document.cookie = cookies;
+	}
+	function getCookie(cName) {
+		cName = cName + '=';
+		var cookieData = document.cookie;
+		var start = cookieData.indexOf(cName);
+		var cValue = '';
+		if(start != -1){
+			start += cName.length;
+			var end = cookieData.indexOf(';', start);
+			if(end == -1)end = cookieData.length;
+			cValue = cookieData.substring(start, end);
+		}
+		return unescape(cValue);
+	}
+	
+	$('.btnClose').click(function(){
+		if ($('#chkToday2').prop("checked")) {
+			setCookie('popToggle2','click',1);
+		}
+	});
+	
+	
+	
+	$('#fbLink').click(function(e){
+		  e.preventDefault();
+		  window.open('https://www.facebook.com/sharer/sharer.php?u=' + uu,
+		              'share_popup', 'width=600,height=400');
+		  return false;
+		});
+	
+	
+	
+	
+	
+	
+	
+	$('#twLink').click(function(e){
+		  e.preventDefault();
+		  window.open('https://twitter.com/intent/tweet?text=생활체육'
+		              + '&url=' + uu,
+		              'share_popup', 'width=600,height=400');
+		  return false;
+		});
+	
+	$('.prt').on('click', function(e){
+		e.preventDefault();
+		openPopup(this.href,'960','600');
+	});
+	
+	 $(".link_copy").on("click", function(){
+	 		try { 
+	 			var url = $('meta[property="og:url"]').attr('content');   // 공유할 페이지 URL
+	 	    	var t = document.createElement("textarea");
+	 	    	  document.body.appendChild(t);
+	 	    	  t.value = url;
+	 	    	  t.select();
+	 	    	  document.execCommand('copy');
+	 	    	  document.body.removeChild(t);
+	 	         alert('URL이 복사되었습니다.'); 
+	 	         return false;
+	 	    } catch (err) { 
+	 	        alert('이 브라우저는 지원하지 않습니다.');
+	 	        return false;
+	 	    }
+	 });
+	 function relSite(url){
+		$("#goStie").attr("href",url);
+	 }
+</script>
+
+	<div class="footer">
+		<div class="wid cfx">
+			<div class="ft-logo">
+				<img src="/resources/main/images/layout/foot_logo.png" alt="핫둘핫둘 서울 운동으로 더 나은 삶을">
+			</div>
+			<div class="ft-con">
+				<ul class="ft-lk">
+					<!-- <li><a href="/main/content/view/MN10000000.do" class="oc">개인정보처리방침</a></li> -->
+					<li><a href="/main/content/view/MN11000000.do">이용약관</a></li>
+					<li><a href="/main/content/view/MN12000000.do">이메일 무단수집 거부</a></li>
+						<!-- li><a href="#n">찾아오시는 길</a></li -->
+				</ul>
+				<div class="ft-contact">
+					<p>주소 : 04524 서울특별시 중구 세종대로 110</p>
+					<p>전화 : 02-120 또는 02-731-2120</p>
+				</div>
+				<p class="cpr">© Seoul Metropolitan Government all rights reserved</p>
+			</div>
+			<div class="ft-os">
+				<div class="ft-fs">
+					<span class="f-select">
+						<span></span>
+						<select title="관련사이트 선택" id="relSite"> <!-- 2020-12-08 onchange 삭제 -->
+							<option value="">관련사이트</option>
+							<option value="https://www.seoul.go.kr">서울특별시청</option>
+							<option value="https://www.seoulsports.or.kr">서울특별시체육회</option>
+							<option value="https://yeyak.seoul.go.kr">서울특별시 공공서비스예약</option>
+							<option value="http://data.seoul.go.kr">서울 열린데이터광장</option>
+							<option value="https://www.sisul.or.kr">서울시설공단</option>
+							<option value="https://sll.seoul.go.kr/lms/requestCourse/doListView.do?course_gubun=1&course_category_id=201007149733002&mnid=201509397683">서울시평생학습포털</option>
+						</select>
+						<a href="#" title="새창열림" target="_blank" class="btn_move">이동</a> <!-- 2020-12-08 추가 -->
+					</span>
+				</div>
+				<div class="ft-ibt">
+					<!-- 2020-12-08 title값 추가 -->
+					<div class="ft-sns">
+						<a href="https://www.youtube.com/channel/UCIUGWfrNz3SXUphrl_i5Zgg?disable_polymer=true" target="_blank"><img src="/resources/main/images/layout/yutu.png" alt="유튜브 새창열림"></a>
+						<a href="https://www.facebook.com/runseoul?_rdc=1&_rdr" target="_blank"><img src="/resources/main/images/layout/face.png" alt="페이스북 새창열림"></a>
+						<!-- <a href="#n" title="새창열림"><img src="/resources/main/images/layout/f_sns3.png" alt="트위터"></a> -->
+						<a href="https://blog.naver.com/hot2hot2seoul" target="_blank"><img src="/resources/main/images/layout/naver.png" alt="블로그 새창열림"></a>
+						<a href="https://www.instagram.com/hot2seoul/" target="_blank"><img src="/resources/main/images/layout/inst.png" alt="인스타그램 새창열림"></a>
+					</div>
+					<!-- //2020-12-08 title값 추가 -->
+					<div class="ft-wmk">
+						<a title="새창" href="http://webwatch.or.kr/Situation/WA_Situation.html?MenuCD=110" target="_blank">
+							<img class="wa" alt="과학기술정보통신부 WA(WEB접근성) 품질인증 마크,
+웹와치(WebWatch) 2026.02.17 ~ 2027.02.16" src="/resources/main/images/layout/WA_Mark.png"/>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script >
+   
+   // 2020-12-08 추가
+	$(".f-select select").change(function(){
+		$(this).next().attr("href",$(this).val());
+	});
+</script>
+<script type="text/javascript" charset="utf-8" src="/resources/main/js/kakao.js"></script>
+<script type="text/javascript">
+ // SDK를 초기화 합니다. 사용할 앱의 JavaScript 키를 설정해 주세요.
+ if (!Kakao.isInitialized()){
+ Kakao.init('675659bbb9fa2d6eeb68d98e78b872fe');  // 운영에서 사용함
+// Kakao.init('3a03d6c6985d335a7f01b35333d3faf2'); // webdisc에서 사용함
+ }
+
+ // SDK 초기화 여부를 판단합니다.
+ console.log(Kakao.isInitialized());
+ 
+/*  Kakao.Share.createDefaultButton({
+   container: '#kakaotalk-sharing-btn',
+   objectType : 'text',
+   text : 
+   	'기본 템플릿' ,
+   link: {
+   	mobileWebUrl:
+   		'https://developers.kakao.com',
+   	webUrl:
+   		'https://developers.kakao.com',
+   },
+ }) */
+
+var shareAddr = $('meta[property="og:url"]').attr('content');
+var shareTitle = '생활체육';
+console.log(shareAddr);
+console.log(shareTitle);
+  Kakao.Share.createDefaultButton({
+    container: '#create-kakaotalk-sharing-btn',
+    objectType: 'feed',
+    content: {
+      title: '[생활체육]',
+      description: shareTitle,
+      imageUrl:
+        /* 'http://k.kakaocdn.net/dn/Q2iNx/btqgeRgV54P/VLdBs9cvyn8BJXB3o7N8UK/kakaolink40_original.png' */
+        'https://sports.seoul.go.kr/resources/main/images/sub/bld.jpg',
+      link: {
+        mobileWebUrl: shareAddr,
+        webUrl: shareAddr,
+      },
+    },
+    /* social: {
+      likeCount: 286,
+      commentCount: 45,
+      sharedCount: 845,
+    }, */
+    buttons: [
+      {
+        title: '웹으로 보기',
+        link: {
+          mobileWebUrl: shareAddr,
+          webUrl: shareAddr,
+        },
+      },
+      /* {
+        title: '앱으로 보기',
+        link: {
+          mobileWebUrl: shareAddr,
+          webUrl: shareAddr,
+        },
+      }, */
+    ],
+  })
+</script>
+
+<script>
+	// file_url : 파일경로
+	// file_name: 파일명 - 파일경로에서 파일명을 추출할 수 없는 경우 파일명을 입력해주십시오.
+	function previewAjax(file_url, file_name) {
+		var apiKey = "I6DFJW1ZCBDR79GKAVAX3Q";
+		var cc = "sg_096";
+		var fileUrl = encodeURIComponent(file_url);
+		var fileName = encodeURIComponent(file_name);
+		window.open("https://seoul.viewstory.net/previewAjax.do?apikey={0}&cc={1}&url={2}&fileName={3}".format(apiKey, cc, fileUrl, fileName),"a", "width=1200, height=1000, left=100, top=50");
+	}
+	
+	function preListen(file_url, file_name) {
+		var apiKey = "I6DFJW1ZCBDR79GKAVAX3Q";
+		var cc = "sg_096";
+		var fileUrl = encodeURIComponent(file_url);
+		var fileName = encodeURIComponent(file_name);
+		window.open("https://seoul.viewstory.net/voiceOverAjax.do?apikey={0}&cc={1}&url={2}&fileName={3}".format(apiKey, cc, fileUrl, fileName), "a", "width=1200, height=1000, left=100, top=50");
+	}
+	
+	String.prototype.format = function() {
+		var formatted = this;
+		for( var arg in arguments ) {
+			formatted = formatted.replace("{" +arg + "}", arguments[arg]);
+		}
+		return formatted;
+	};
+</script>
+
+<script src="//weblog.eseoul.go.kr/wlo/js/install.js" ></script>
+</body>
+</html>

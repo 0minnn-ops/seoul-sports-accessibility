@@ -1,0 +1,190 @@
+{
+  "as_of": "2026-10-31",
+  "season": "10월의 공휴일 아닌 통상 주간, 특정 주차 미지정",
+  "source_total": 897,
+  "public_total": 814,
+  "selected_rows": 399,
+  "unique": 398,
+  "closed_records": 26,
+  "outside_or_missing": [
+    1091,
+    1026,
+    1490,
+    1073,
+    1074,
+    1575,
+    676,
+    1494,
+    1562,
+    1144,
+    1523,
+    1103,
+    1503,
+    1513,
+    1514
+  ],
+  "primary": 351,
+  "district_count": 25,
+  "dong_count": 427,
+  "grid_count": 2425,
+  "duplicates": [
+    {
+      "kept": 1604,
+      "ids": [
+        1604,
+        1679
+      ],
+      "name": "잠실 제2수영장",
+      "rule": "같은 종목·공백제거 시설명·주소, 작은 ID 유지; 시각 판정 충돌은 확인 불가"
+    }
+  ],
+  "near_same_kind": [
+    {
+      "id1": 974,
+      "name1": "송파시각장애인축구장",
+      "id2": 973,
+      "name2": "송파구여성축구장",
+      "distance_m": 0.0
+    },
+    {
+      "id1": 945,
+      "name1": "잠실종합운동장 제1수영장",
+      "id2": 1604,
+      "name2": "잠실 제2수영장",
+      "distance_m": 0.0
+    },
+    {
+      "id1": 950,
+      "name1": "잠실학생수영장",
+      "id2": 1604,
+      "name2": "잠실 제2수영장",
+      "distance_m": 0.0
+    },
+    {
+      "id1": 950,
+      "name1": "잠실학생수영장",
+      "id2": 945,
+      "name2": "잠실종합운동장 제1수영장",
+      "distance_m": 0.0
+    }
+  ],
+  "district_mismatches": [
+    {
+      "id": 1543,
+      "name": "갈산근린공원 농구장",
+      "addressDistrict": "양천구",
+      "pointDistrict": "구로구"
+    },
+    {
+      "id": 965,
+      "name": "광나루한강공원 축구장",
+      "addressDistrict": "강동구",
+      "pointDistrict": "송파구"
+    },
+    {
+      "id": 1227,
+      "name": "안양천체육생태공원 농구장",
+      "addressDistrict": "구로구",
+      "pointDistrict": "양천구"
+    },
+    {
+      "id": 1525,
+      "name": "응봉근린공원 배드민턴장",
+      "addressDistrict": "중구",
+      "pointDistrict": "성동구"
+    },
+    {
+      "id": 787,
+      "name": "잠원한강공원 농구장",
+      "addressDistrict": "강남구",
+      "pointDistrict": "서초구"
+    },
+    {
+      "id": 1426,
+      "name": "중랑물재생센터 풋살경기장",
+      "addressDistrict": "중랑구",
+      "pointDistrict": "성동구"
+    },
+    {
+      "id": 1195,
+      "name": "중랑워터파크",
+      "addressDistrict": "중랑구",
+      "pointDistrict": "동대문구"
+    }
+  ],
+  "correlations": {
+    "wed14": {
+      "density_vs_access_spearman": 0.44058268404993167,
+      "potential_vs_access_spearman": 0.9884508521945214
+    },
+    "wed20": {
+      "density_vs_access_spearman": 0.3917099289764137,
+      "potential_vs_access_spearman": 0.8696030942819473
+    },
+    "sat14": {
+      "density_vs_access_spearman": 0.4348099504457381,
+      "potential_vs_access_spearman": 0.9620092240280969
+    },
+    "sun14": {
+      "density_vs_access_spearman": 0.4013616991520785,
+      "potential_vs_access_spearman": 0.8947148840150949
+    }
+  },
+  "policy_median_potential": 1.528716980112874,
+  "policy_counts": {
+    "공급·입지 추가 조사": 213,
+    "상대적 유지": 186,
+    "운영시간 개선 후보": 17,
+    "시간정보 확인 우선": 11
+  },
+  "sensitivity": [
+    {
+      "case": "기본",
+      "n": 351,
+      "wed20_open": 259,
+      "mean_grid_access": 1.0325509922122178,
+      "rank_corr_to_base": 1.0
+    },
+    {
+      "case": "거리감쇠1000m",
+      "n": 351,
+      "wed20_open": 259,
+      "mean_grid_access": 2.161319582059284,
+      "rank_corr_to_base": 0.9700750851053925
+    },
+    {
+      "case": "반경1000m",
+      "n": 351,
+      "wed20_open": 259,
+      "mean_grid_access": 0.5581302820938121,
+      "rank_corr_to_base": 0.9138577130081972
+    },
+    {
+      "case": "24시간 표기 제외",
+      "n": 295,
+      "wed20_open": 203,
+      "mean_grid_access": 0.8061594821306,
+      "rank_corr_to_base": 0.8653913676636191
+    },
+    {
+      "case": "과거 안내문구 제외",
+      "n": 319,
+      "wed20_open": 236,
+      "mean_grid_access": 0.9428175613697637,
+      "rank_corr_to_base": 0.9608635419071807
+    }
+  ],
+  "listed24h": 56,
+  "legacy": 32,
+  "free_explicit": 34,
+  "coordinate_flag_excluded": [
+    1543,
+    965,
+    1227,
+    1525,
+    787,
+    1426,
+    1153
+  ],
+  "active_missing_outside": 14
+}
