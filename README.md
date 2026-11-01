@@ -53,4 +53,7 @@ python scripts/build_notebook.py
 
 ## 웹 배포
 
-Cloudflare Pages에서 `main` 브랜치를 연결하고 프레임워크는 없음, 빌드 명령은 공란, 출력 디렉터리는 `dist`로 설정한다. 분석을 다시 실행하지 않고 포함된 정적 보고서를 제공한다.
+- 공개 보고서: https://seoul-sports-accessibility.pages.dev/
+- 코드와 실행 노트북: https://github.com/0minnn-ops/seoul-sports-accessibility
+
+현재 Cloudflare Pages 프로젝트는 `dist` 파일을 직접 업로드해 배포했다. GitHub 변경 사항이 자동 배포되는 설정은 아니다. 보고서를 수정한 경우 `dist` 내용을 다시 업로드한다. 새로운 Git 연동 프로젝트를 만들 경우 빌드 명령은 공란, 출력 디렉터리는 `dist`로 설정한다.
